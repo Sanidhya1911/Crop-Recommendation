@@ -6,12 +6,12 @@ By considering factors such as soil type, climate, rainfall, temperature, humidi
 ## Dataset
 The dataset used in this project is built by augmenting rainfall, climate, and fertilizer data specific to India. The following attributes are included in the dataset:
 
-- **N:** Nitrogen content in the soil\
-- **P:** Phosphorous content in the soil\
-- **K:** Potassium content in the soil\
-- **Temperature:** Temperature in degrees Celsius\
-- **Humidity:** Relative humidity in %\
-- **pH:** pH value of the soil\
+- **N:** Nitrogen content in the soil
+- **P:** Phosphorous content in the soil
+- **K:** Potassium content in the soil
+- **Temperature:** Temperature in degrees Celsius
+- **Humidity:** Relative humidity in %
+- **pH:** pH value of the soil
 - **Rainfall:** Rainfall in mm
 ## Key Features
 - **Input Data Collection:** Allows users to input data such as soil parameters, climate information, and geographic location.
