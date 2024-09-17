@@ -34,13 +34,15 @@ The dataset used in this project is built by augmenting rainfall, climate, and f
 
 
 ## Experiment Results
-**Data Analysis:**
-- Most columns contain outliers, except for Nitrogen (N).
-**Performance Evaluation:**
-- The dataset was split into 80% training data and 20% validation data.
-**Training and Validation:**
-Gaussian Naive Bayes (GaussianNB) outperformed other classification models.
-- Training Accuracy: **93.26%**
-- Validation Accuracy: **92.53%**
+- **Data Analysis:**
+  - Most columns contain outliers, except for Nitrogen (N).
+- **Performance Evaluation:**
+  - The dataset was split into 80% training data and 20% validation data.
+- **Training and Validation:**
+  - Gaussian Naive Bayes (GaussianNB) outperformed other classification models.
+  - GaussianNB ( 93.26 % accuracy score )
+- **Performance Results**
+  - Training Accuracy: **93.26%**
+  - Validation Accuracy: **92.53%**
 ## Conclusion
 This project provides an effective crop recommendation system using machine learning. The Gaussian Naive Bayes model showed a strong performance, achieving high accuracy on both training and validation sets.
