@@ -76,10 +76,62 @@ The system uses a dataset augmented with rainfall, climate, and fertilizer data 
 ## Project Structure
 ```
 Crop-Recommendation-System-Using-Machine-Learning/
-├── data/
-│ ├── crop_data.csv
-├── Crop-Recommendation-Notebook.ipynb
+├── Datasets/
+│ ├── crop_data1.csv
+│ ├── crop_data2.cs
+├── Notebook/
+│ ├── Crop recommendation final.ipynb
 ├── requirements.txt
 ├── README.md
+├── License
 └── [output_and_model_files]
 ```
+
+## Contributing
+
+Contributions are welcome! To contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or fix:
+    ```
+    git checkout -b feature/your-feature
+    ```
+3. Commit your changes:
+    ```
+    git commit -m "Add feature or fix"
+    ```
+4. Push the branch to your fork:
+    ```
+    git push origin feature/your-feature
+    ```
+5. Open a Pull Request with a detailed description.
+
+Please follow standard Python code style and document your contributions.
+
+## License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## Dependencies
+The project requires the Python packages (mentioned in `requirements.txt`)
+
+## Contact
+For any queries, feel free to reach out:
+
+<a href="mailto:kruthiktrgowda24@gmail.com" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="26" alt="gmail logo"  />
+</a>
+
+<a href="https://github.com/KRUTHIKTR" target="_blank">
+<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://linkedin.com/in/kruthiktr" target="_blank">
+<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+</a>
+
+<a href="https://linktr.ee/kruthik_tr" target="_blank">
+  <img src="https://img.shields.io/static/v1?message=Linktree&logo=linktree&label=&color=1de9b6&logoColor=white&labelColor=&style=for-the-badge" height="26" alt="linktree logo"  />
+</a>
+
+
+###### Thank you for checking out the Crop Recommendation System Using Machine Learning project! Feel free to explore and contribute.
