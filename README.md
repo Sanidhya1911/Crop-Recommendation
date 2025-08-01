@@ -15,7 +15,7 @@ A machine learning-based system to recommend optimal crops based on soil, climat
 - [Dependencies](#Dependencies)
 
 ## Overview
-This repository offers a machine learning pipeline to predict the most suitable crop based on specific environmental and soil properties. By leveraging advanced predictive models and historical data, the system delivers personalized crop recommendations tailored to the conditions of a given region or farm. Key factors considered include soil nutrient content (N, P, K), temperature, humidity, rainfall, and pH level[2].
+This repository offers a machine learning pipeline to predict the most suitable crop based on specific environmental and soil properties. By leveraging advanced predictive models and historical data, the system delivers personalized crop recommendations tailored to the conditions of a given region or farm. Key factors considered include soil nutrient content (N, P, K), temperature, humidity, rainfall, and pH level.
 
 ## Dataset
 The system uses a dataset augmented with rainfall, climate, and fertilizer data relevant to India. The key attributes are:
@@ -32,7 +32,7 @@ The system uses a dataset augmented with rainfall, climate, and fertilizer data 
 - **Data Preprocessing:** Handles missing values and scales features with normalization.
 - **Multiple ML Models:** Includes Decision Trees, Random Forests, SVM, and Gradient Boosting for accurate predictions.
 - **Model Training and Evaluation:** Models are evaluated via relevant metrics to ensure reliability.
-- **Crop Recommendation:** Suggests suitable crops for provided soil/climate input[2].
+- **Crop Recommendation:** Suggests suitable crops for provided soil/climate input.
 
 ## Technologies Used
 
@@ -72,3 +72,14 @@ The system uses a dataset augmented with rainfall, climate, and fertilizer data 
 - Input your environmental and soil parameters in the notebook or application.
 - Run all cells to train models and receive crop recommendations.
 - Evaluate the system using your own test data for accuracy estimation.
+
+## Project Structure
+```
+Crop-Recommendation-System-Using-Machine-Learning/
+├── data/
+│ ├── crop_data.csv
+├── Crop-Recommendation-Notebook.ipynb
+├── requirements.txt
+├── README.md
+└── [output_and_model_files]
+```
