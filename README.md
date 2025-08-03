@@ -39,8 +39,21 @@ The system uses a dataset augmented with rainfall, climate, and fertilizer data 
 - **Python:** Backend and ML development
 - **Scikit-learn:** Model building, training, evaluation
 - **Pandas:** Data manipulation and analysis
-- **NumPy:** Numerical computations[2]
+- **NumPy:** Numerical computations
 
+## Project Structure
+```
+Crop-Recommendation-System-Using-Machine-Learning/
+├── Datasets/
+│ ├── crop_data1.csv
+│ ├── crop_data2.cs
+├── Notebook/
+│ ├── Crop recommendation final.ipynb
+├── requirements.txt
+├── README.md
+├── License
+└── [output_and_model_files]
+```
 ## Experiment Results
 - **Outlier Analysis:** All columns except Nitrogen (N) have outliers
 - **Train/Test Split:** 80% train, 20% validation
@@ -66,26 +79,6 @@ The system uses a dataset augmented with rainfall, climate, and fertilizer data 
     ```
     pip install -r requirements.txt
     ```
-
-## Usage
-- Open the main Jupyter Notebook and follow instructions for exploratory data analysis and modeling.
-- Input your environmental and soil parameters in the notebook or application.
-- Run all cells to train models and receive crop recommendations.
-- Evaluate the system using your own test data for accuracy estimation.
-
-## Project Structure
-```
-Crop-Recommendation-System-Using-Machine-Learning/
-├── Datasets/
-│ ├── crop_data1.csv
-│ ├── crop_data2.cs
-├── Notebook/
-│ ├── Crop recommendation final.ipynb
-├── requirements.txt
-├── README.md
-├── License
-└── [output_and_model_files]
-```
 
 ## License
 
