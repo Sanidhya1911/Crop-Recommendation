@@ -6,13 +6,12 @@ A machine learning-based system to recommend optimal crops based on soil, climat
 - [Dataset](#dataset)
 - [Key Features](#key-features)
 - [Technologies Used](#technologies-used)
+- [Project Structure](#project-structure)
 - [Experiment Results](#experiment-results)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 - [Dependencies](#Dependencies)
+- [License](#license)
 
 ## Overview
 This repository offers a machine learning pipeline to predict the most suitable crop based on specific environmental and soil properties. By leveraging advanced predictive models and historical data, the system delivers personalized crop recommendations tailored to the conditions of a given region or farm. Key factors considered include soil nutrient content (N, P, K), temperature, humidity, rainfall, and pH level.
@@ -79,13 +78,16 @@ Crop-Recommendation-System-Using-Machine-Learning/
     ```
     pip install -r requirements.txt
     ```
+## Contributing
+
+Contributions are welcome. Please read the [`CONTRIBUTING.md`](https://github.com/KRUTHIKTR/Crop-Recommendation-System-Using-Machine-Learning/blob/main/Contributing.md)) file for guidelines.
+
+## Dependencies
+The project requires the Python packages (mentioned in `requirements.txt`)
 
 ## License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
-## Dependencies
-The project requires the Python packages (mentioned in `requirements.txt`)
 
 ## Contact
 For any queries, feel free to reach out:
