@@ -49,6 +49,7 @@ Crop-Recommendation-System-Using-Machine-Learning/
 ├── Notebook/
 │ ├── Crop recommendation final.ipynb
 ├── requirements.txt
+├── Contributing.md
 ├── README.md
 ├── License
 └── [output_and_model_files]
